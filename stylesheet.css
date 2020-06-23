@@ -19,8 +19,8 @@ header {
 
 .content {
   max-width: 1170px;
-  
-  padding: 15px 15px;
+  margin-left: 30px;
+  margin-right: 30px;
   margin-top: 70px;
   background-color: #ecf0f1;
 
