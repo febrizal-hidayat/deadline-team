@@ -78,9 +78,9 @@ header {
   background-size: cover;
   color: #ffa801;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: content-header 1s ease-in-out infinite alternate;
+  -moz-animation: content-header 1s ease-in-out infinite alternate;
+  animation: content-header1s ease-in-out infinite alternate;
 
 @-webkit-keyframes content-header {
   from {
