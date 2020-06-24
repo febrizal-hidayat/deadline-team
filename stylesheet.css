@@ -78,8 +78,19 @@ header {
   background-size: cover;
   color: #ffa801;
   text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 
-
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 9px #9c88ff, 0 0 20px #fbc531, 0 0 30px #273c75, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #f5f6fa, 0 0 30px #487eb0, 0 0 40px #dcdde1, 0 0 50px #ff4da6, 0 0 60px #192a56, 0 0 70px #ff4da6, 0 0 80px #353b48;
+  }
+}
 }
 .menu-icon {
   color: white;
